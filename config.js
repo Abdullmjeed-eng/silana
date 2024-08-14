@@ -48,7 +48,7 @@ global.media = {
 global.url = {
  sig: 'https://instagram.com/noureddine_ouafy',
  sgh:  'https://github.com/noureddineouafy',
- sgc: 'https://chat.whatsapp.com/DABxracGsi5CQMd5d1N1j7'
+ sgc: 'https://www.instagram.com/u_m8odi?igsh=MTJqbnB2MjN0YXZ6'
 }
 
 global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
