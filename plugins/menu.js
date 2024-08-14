@@ -9,7 +9,7 @@ import fs from 'fs'
 
 const defaultMenu = {
   before: `
-> *ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱɪʟᴀɴᴀ ʙᴏᴛ ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @Abdullmajeed_Eng*
+> *ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱɪʟᴀɴᴀ ʙᴏᴛ ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @ɴᴏᴜʀᴇᴅᴅɪɴᴇ_ᴏᴜᴀꜰʏ*
 
 > ▧ Salam : %name
 > ▧ Uptime : %muptime
@@ -106,7 +106,7 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
     let totalreg = Object.keys(global.db.data.users).length
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
     let listCmd =  `
-> ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱɪʟᴀɴᴀ ʙᴏᴛ ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @Abdullmajeed_Eng
+> ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱɪʟᴀɴᴀ ʙᴏᴛ ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @ɴᴏᴜʀᴇᴅᴅɪɴᴇ_ᴏᴜᴀꜰʏ
 
 
 > ▧ Uptime : ${muptime}
@@ -219,7 +219,7 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
 						mediaType: 1,
 						thumbnailUrl: `https://telegra.ph/file/b306e14fc211f1e47875a.jpg`,
 						mediaUrl: ``,
-						sourceUrl: "https://instagram.com/m8odi",
+						sourceUrl: "https://instagram.com/noureddine_ouafy",
 					},
 				},
 			},
@@ -269,4 +269,4 @@ function clockString(ms) {
 
 function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.substr(1)
-        }
+	    }
